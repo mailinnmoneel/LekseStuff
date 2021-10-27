@@ -20,7 +20,7 @@ namespace LekseStuff
             StreetNo = streetno;
             PostNo = postno;
             PostPlace = postplace;
-            FullAdress = " Gatenavn " + streetname + " Ganenummer " + streetno + " Postnummer " + postno + " Poststed " + postplace;
+            FullAdress = " Gatenavn " + streetname + " Gatenummer " + streetno + " Postnummer " + postno + " Poststed " + postplace;
         }
     }
 }

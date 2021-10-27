@@ -13,7 +13,7 @@ namespace LekseStuff
         public int Age;
 
 
-        public Adress Adress1; //Dette er veldig kult!
+        public Adress Adress1; //NB!
 
         public Person(string name, string email, int age, Adress adress)
         {

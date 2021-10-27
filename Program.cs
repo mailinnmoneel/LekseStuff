@@ -20,16 +20,9 @@ namespace LekseStuff
             PrintMethod(awesomepersons);
         }
 
-        /*
-        int[] numberarray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            foreach (var Bunny in numberarray)
-            {
-                Console.WriteLine(Bunny);
-            }
-        */
          static public void PrintMethod( List<Person> awesomepersons)
         {
-            foreach (Person People in awesomepersons) //Denne funker ikke helt enda
+            foreach (Person People in awesomepersons) 
             {
                 Console.WriteLine($"Hello, my name is {People.Name}!");
                 Console.WriteLine($"I am {People.Age} years old, and i live in {People.Adress1.FullAdress}"); //Husk å dotte masse :) 
